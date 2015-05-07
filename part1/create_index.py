@@ -331,13 +331,14 @@ def listdir_nohidden(path):
 
 
 if __name__ == '__main__':
-	# mapwords()
-	# print "map complete"
+	mapwords()
+	print "map complete"
 	dir1 = temp_map_dir
-	dir2 = temp_map_dir + "1"
+	dir2 = temp_reduce_dir + "1"
 	reduce_count = 1
 	dir1_length = len(listdir_nohidden(dir1))
 	while (dir1_length > 1):
+		print "files remaining to reduce:",dir1_length
 		mergeDocs(dir1, dir2)
 		reduce_count += 1
 		dir1 = dir2
