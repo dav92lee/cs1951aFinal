@@ -20,6 +20,7 @@ responses_per_batch = 5000
 punc_regex = re.compile('[%s]' % re.escape(string.punctuation))
 # FILEPAHTS
 temp_map_dir = "temp_map"
+temp_reduce_dir = "temp_reduce_dir"
 
 def mapwords():
 	#variables used
@@ -189,12 +190,24 @@ def mergeDocs(dir1, dir2):
 				if file1_complete or file2_complete: 
 					break
 				line1_arr = line1.split(",",1)
-				
 				line2_arr = line2.split(",",1)
+
+
+				try:
+				    gotdata = line1_arr[1]
+				except IndexError:
+				    print "=== CANNOT READ LINE ==="
+				    print line1
 				if (len(line1_arr) != 2) or (len(line1_arr[0]) == 0) or (len(line1_arr[1]) == 0):
 					used_line1 = True
 					continue
 
+
+				try:
+				    gotdata = line2_arr[1]
+				except IndexError:
+				    print "=== CANNOT READ LINE ==="
+				    print line2
 				if (len(line2_arr) != 2) or (len(line2_arr[0]) == 0) or (len(line2_arr[1]) == 0):
 					used_line2 = True
 					continue
@@ -320,8 +333,15 @@ def listdir_nohidden(path):
 if __name__ == '__main__':
 	# mapwords()
 	# print "map complete"
-	
-	while 
-	mergeDocs()
+	dir1 = temp_map_dir
+	dir2 = temp_map_dir + "1"
+	reduce_count = 1
+	dir1_length = len(listdir_nohidden(dir1))
+	while (dir1_length > 1):
+		mergeDocs(dir1, dir2)
+		reduce_count += 1
+		dir1 = dir2
+		dir2 = temp_reduce_dir + str(reduce_count)
+		dir1_length = len(listdir_nohidden(dir1))
 	print "reduce complete"
 
