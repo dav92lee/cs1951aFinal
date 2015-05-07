@@ -2,6 +2,7 @@ import sys
 import argparse
 import json
 import csv
+import sentiment
 # from sentiment import getSentiment
 
 # ================
@@ -27,7 +28,9 @@ def parseReviews(review_filepath):
 		useful_norm = float(useful/normalize_factor)
 		cool_norm = float(cool/normalize_factor)
 
-		sentiment = getSentiment(text) #TODO: JADLER FILL IN HERE
+                sentiment_analyzer = Sentiment()
+                
+		sentiment = sentiment_analyzer.getSentiment(text)
 
 		csv_writer.writerow([sentiment, funny, useful, cool, funny_norm, useful_norm, cool_norm])
 
