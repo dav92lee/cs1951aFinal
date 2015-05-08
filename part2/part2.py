@@ -2,37 +2,41 @@ import sys
 import argparse
 import json
 import csv
-import sentiment
+from sentiment import Sentiment
 # from sentiment import getSentiment
 
 # ================
 # GLOBAL VARIABLES
 # ================
-time_normalize_factor = float(2015-2004) #today-yelp's founding date
+time_normalize_factor = float(2016-2004) #today-yelp's founding date
 
 def parseReviews(review_filepath):
 	f_in = open(review_filepath, 'r')
 	f_out = open ("out.csv", "w")
 	csv_writer = csv.writer(f_out)
+        count = 0
+        sentiment_analyzer = Sentiment()
 	for review in f_in:
+                count+=1
+                if count % 1000 == 0:
+                        print(count)
 		review_obj = json.loads(review)
 		text = review_obj["text"]
 		date = review_obj["date"]
 		votes = review_obj["votes"]
+                stars = review_obj["stars"]
 		funny = votes["funny"]
 		useful = votes["useful"]
 		cool = votes["cool"]
 		year = int(date.split("-")[0])
-		normalize_factor = float(2015-year)/time_normalize_factor
+		normalize_factor = float(2016-year)/time_normalize_factor
 		funny_norm = float(funny/normalize_factor)
 		useful_norm = float(useful/normalize_factor)
 		cool_norm = float(cool/normalize_factor)
-
-                sentiment_analyzer = Sentiment()
                 
 		sentiment = sentiment_analyzer.getSentiment(text)
 
-		csv_writer.writerow([sentiment, funny, useful, cool, funny_norm, useful_norm, cool_norm])
+		csv_writer.writerow([sentiment, funny, useful, cool, funny_norm, useful_norm, cool_norm, stars])
 
 	f_in.close()
 	f_out.close()

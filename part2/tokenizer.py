@@ -4,7 +4,13 @@ from porter_stemmer import PorterStemmer
 import re
 import string
 from itertools import groupby
-
+# GLOBAL VARIABLES
+stopwords_list = stopwords.words("english")
+punc = string.punctuation
+punc_table = {ord(c): None for c in punc}
+stemmer = PorterStemmer()
+responses_per_batch = 5000
+punc_regex = re.compile('[%s]' % re.escape(string.punctuation))
 def tokenizer(text):
 	word_tup_arr = {}
 	word_arr = []
@@ -35,10 +41,6 @@ def tokenizer(text):
 		# [] Remove short/long words
 		if len(word) < 3 or len(word) > 20:
 			continue
-		# ADD TO WORD TUP LIST
-		if word not in word_arr:
-			word_arr.append(word)
-			word_tup_arr[word] = []
-		word_tup_arr[word].append(index)
+                word_arr.append(word)
 
-	return word_tup_arr
+	return word_arr
