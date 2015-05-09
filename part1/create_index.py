@@ -295,7 +295,6 @@ def tokenizer(text):
 	words = text.split(" ")
 	index = -1  #first index will be 0
 	for word in words:
-		index += 1
 		# PARSING/PROCESSING SINLGE WORDS
 		# ---
 		# [] Stemming 
@@ -312,6 +311,7 @@ def tokenizer(text):
 		if word not in word_arr:
 			word_arr.append(word)
 			word_tup_arr[word] = []
+		index += 1
 		word_tup_arr[word].append(index)
 
 	return word_tup_arr

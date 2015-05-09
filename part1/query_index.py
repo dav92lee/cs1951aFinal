@@ -9,7 +9,7 @@ def q1(query_str):
 	print "q1"
 
 	tokenized_query_str = tokenizer(query_str).keys()
-	if len(tokenized_query_str > 0):
+	if len(tokenized_query_str) > 0:
 		query_str = tokenized_query_str[0]
 	
 	index_f.seek(0)
@@ -58,26 +58,30 @@ def q3(query_str):
 	found = 0
 
 	query_str_split = query_str.split()
-	print query_str_split 
 	query_str_arr = []
+	tokenized_query_str = tokenizer(query_str).keys()
+	if len(tokenized_query_str) > 0:
+		query_str = tokenized_query_str[0]
 	for query_word in query_str_split:
-		print query_word
-		tokenized_query_str = tokenizer(query_str).keys()
-		if len(tokenized_query_str > 0):
-			query_str = tokenized_query_str[0]
-		tokenized_query_word = tokenizer(query_word).keys()[0]
-		query_str_arr.append(tokenized_query_word)
+		
+		tokenized_query_word = tokenizer(query_word).keys()
+		if len(tokenized_query_word) > 0:
+			tokenized_query_word = tokenized_query_word[0]
+			query_str_arr.append(tokenized_query_word)
 	
 	query_str = query_str_arr
 	num_words = len(query_str)
 
+	# query_str is an array of all the words that we will consider
+	
 	#START (USE QUERY STR TO PROCESS)
-	results = []
+	full_results = []
 	possible_reviews = []
 	for j in range(0, num_words):
-		results.append(0)
+		full_results.append(0)
 
 	index_f.seek(0)
+
 	for line in index_f:
 		line_arr = line.split(",",1)
 		word = line_arr[0]
@@ -86,36 +90,61 @@ def q3(query_str):
 			#store all possible reviews
 			indices = [i for i, x in enumerate(query_str) if x == word]
 			for index in indices:
-				results[index] = docs_arr
+				full_results[index] = docs_arr
 
 			#edit possible docs
 			cur_possible_reviews = []
 			for docs in docs_arr:
 				line_num = docs[1]
+				index_arr = docs[2]			
 				if line_num not in cur_possible_reviews:
 					cur_possible_reviews.append(int(line_num))
 
 			if (found != 0):
 				possible_reviews = list(set(possible_reviews).intersection(cur_possible_reviews))
+			else:
+				possible_reviews = list(set(cur_possible_reviews))
+
+			found += 1
 			# for review in docs_arr:
 
 
-	# print possible reviews
 	if found != num_unique_words:
 		return []
 
-	#we know that the results in results all have all possible docs
-	#remove docs to ensure order
-
-			#remove things from array
-			# if (found != 0):
-
-
-			#add things to array
-			# results = results+content_arr
-			# found += 1
-			# if found == num_words:
-			# 	break
+	# We now have 
+	#	- full_results: list of lists of response entries where entry i is word i in our query
+	#	- possible_reviews: list of all possible reviews that still satisfy our conditions
+	#						(for first level filtering)
+	# We need for calculations:
+	#	- review_indices_map: map of line_num -> index_num for the first word in the query string
+	review_indices_map = {}
+	for i in range(0, len(full_results)):
+		word_entry = full_results[i]
+		for j in range(0, len(word_entry)):
+			review_entry = word_entry[j]
+			review_line = review_entry[1]
+			if review_line in possible_reviews:
+				index_array = review_entry[2]
+				if i == 0:
+					review_indices_map[review_line] = index_array
+				else:
+					temp_index_array = [x-i for x in index_array]
+					intersection = list(set(review_indices_map[review_line]).intersection(temp_index_array))
+					review_indices_map[review_line] = intersection
+					
+	# loop through one last time
+	results = []
+	first_word_entry = full_results[0]
+	for review_entry in first_word_entry:
+		review_line = review_entry[1]
+		index_array = review_entry[2]
+		if review_line in review_indices_map:
+			intersection = list(set(review_indices_map[review_line]).intersection(index_array))
+			if len(intersection) > 0:
+				new_review_entry = (review_entry[0], review_line, intersection)
+				results.append(new_review_entry)
+	return results
 
 #Location specific query (LSQ): an OWQ, FTQ or PQ restricted to a
 # user-specified city. Just like Yelp.com your search engine should
@@ -157,4 +186,5 @@ if __name__ == '__main__':
 			output_businesses = q3(cur_query)
 		elif qType == 4:
 			output_businesses = q4(cur_query)
+		print "======================"
 		print output_businesses
