@@ -1,0 +1,730 @@
+
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-US">
+<head>
+<title>Hash House A Go Go - Las Vegas | Restaurant Review - Zagat</title>
+<meta content="Thinking of visiting Hash House A Go Go? Explore their menu, read reviews, get directions and compare prices before you go!" name="description">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<meta content="text/html; charset=utf-8" http-equiv="Content-type">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="https://www.zagat.com/r/hash-house-a-go-go-las-vegas" rel="canonical">
+<link href="/assets/favicon.ico" rel="shortcut icon">
+<link href="/assets/css/zagat.css?rel=1062" rel="stylesheet">
+<meta content="summary" name="twitter:card">
+<meta content="Hash House A Go Go" name="twitter:title"><meta content="@zagat" name="twitter:site">
+<meta content='"Come hungry" because the "creative" yet "comforting" Traditional American fare comes in "gargantuan" portions ("one platter could feed a small army") at these Sin City chain links; casual surround...' name="twitter:description">
+<meta content="http://storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/4aef80b455d331b6d99e3c46322f70db.jpg" name="twitter:image">
+<link href="android-app://com.google.zagat/zagat/r/hash-house-a-go-go-las-vegas" rel="alternate"/>
+<meta content="Hash House A Go Go - Zagat Review" property="og:title">
+<meta content="Thinking of visiting Hash House A Go Go? Explore their menu, read reviews, get directions and compare prices before you go!" property="og:description">
+<script type="text/javascript">
+        var gptadslots=[];
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function(){ var gads = document.createElement('script');
+            gads.async = true; gads.type = 'text/javascript';
+            var useSSL = 'https:' == document.location.protocol;
+            gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+            var node = document.getElementsByTagName('script')[0];
+            node.parentNode.insertBefore(gads, node);
+        })();
+    </script>
+<script type="text/javascript">
+        googletag.cmd.push(function() {
+            
+    gptadslots[1]= googletag.defineSlot('/4061/zagat/places/detail',[[300, 250]],'div-gpt-ad-665430869832007653-1').setTargeting('pos',['top']).addService(googletag.pubads());
+    gptadslots[2]= googletag.defineSlot('/4061/zagat/places/detail',[[300, 250]],'div-gpt-ad-665430869832007653-2').setTargeting('pos',['bottom']).addService(googletag.pubads());
+
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().setTargeting('locale',["new-york-city"]).setTargeting('vertical',["276"]).setTargeting('type',["American"]).setTargeting('k2',["15"]);
+            googletag.pubads().enableAsyncRendering();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    </script>
+<script type="text/javascript">
+    var _vwo_code=(function(){
+    var account_id=50781,
+    settings_tolerance=2000,
+    library_tolerance=2500,
+    use_existing_jquery=false,
+    // DO NOT EDIT BELOW THIS LINE
+    f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+    </script>
+</meta></meta></meta></meta></meta></meta></meta></link></link></link></meta></meta></meta></meta></head>
+<body>
+<noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-P8JQZQ" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P8JQZQ');</script>
+<!-- Header -->
+<div id="header">
+<!-- Shell -->
+<div class="shell">
+<h2 id="logo"><a class="notext" href="/">Zagat</a></h2>
+<img class="print-only" src="/assets/css/images/logo_print.png"/>
+<div class="nav js-top-nav">
+<a href="/vote">Survey</a> <span class="divider">|</span> <a href="http://www.google.com/support/zagat/">Help</a>
+</div>
+<div class="cl"> </div>
+</div>
+<!-- End Shell -->
+</div>
+<!-- End Header -->
+<!-- Main -->
+<div id="main">
+<div class="shell">
+<!--[if lt IE 9]>
+            <div class="ie-less-9" style="display: block;">
+                <p>Your browser is out of date and will not display all features of this website. Please update your browser for a better experience. <a href="http://browsehappy.com" target="_blank">Learn how</a></p>
+            </div>
+        <![endif]-->
+<div id="navigation-holder">
+<div id="navigation">
+<ul>
+<li><a class="first" href="javascript:void(0)">New York City <span class="strike"> </span></a>
+<div class="dd">
+<span class="dd-strike"> </span>
+<div class="dd-box">
+<div class="dd-cnt">
+<div class="dd-case">
+<span class="name">Within the U.S.</span>
+<ul>
+<li><a href="/set-city/atlanta">Atlanta</a></li>
+<li><a href="/set-city/austin">Austin</a></li>
+<li><a href="/set-city/boston">Boston</a></li>
+<li><a href="/set-city/chicago">Chicago</a></li>
+<li><a href="/set-city/dallas">Dallas</a></li>
+<li><a href="/set-city/denver">Denver</a></li>
+<li><a href="/set-city/houston">Houston</a></li>
+<li><a href="/set-city/los-angeles">Los Angeles</a></li>
+<li><a href="/set-city/miami">Miami</a></li>
+<li><a href="/set-city/national">National</a></li>
+<li><a href="/set-city/new-york-city">New York City</a></li>
+<li><a href="/set-city/philadelphia">Philadelphia</a></li>
+<li><a href="/set-city/san-diego">San Diego</a></li>
+<li><a href="/set-city/san-francisco">San Francisco</a></li>
+<li><a href="/set-city/seattle">Seattle</a></li>
+<li><a href="/set-city/washington-dc">Washington, DC</a></li>
+</ul>
+<div class="cl"> </div>
+</div>
+<div class="dd-case">
+<span class="name">International</span>
+<ul>
+<li><a href="/set-city/london">London</a></li>
+<li><a href="/set-city/toronto">Toronto</a></li>
+</ul>
+<div class="cl"> </div>
+</div>
+<p class="see-all">
+<a href="/locations">See all locations</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li><a class="js-main-nav title-change active" href="/p/new-york-city"><span>Ratings &amp; Reviews</span></a></li>
+<li><a class="js-main-nav " href="/l/new-york-city/top-list"><span>Lists</span></a></li>
+<li><a class="js-main-nav " href="/b/new-york-city"><span>Buzz</span></a></li>
+</ul>
+</div>
+<div class="search-input-ctn" id="search">
+<form action="/search/place" method="get">
+<input class="field js-search-input js-search-input-primary" data-city="1020" name="text" placeholder="Search New York City" type="text"/>
+<input name="rdr" type="hidden" value="1"/>
+<input class="search-btn" type="submit" value="search"/>
+<a class="search-btn" href="#">Search</a>
+</form>
+<form action="/search/place" method="get">
+<span class="m-search-btn js-search-trigger">Search</span>
+<div id="js-search-box">
+<input class="js-field js-search-input js-search-input-primary" data-city="1020" name="text" placeholder="Search New York City" type="text"/>
+<input name="rdr" type="hidden" value="1"/>
+<input class="js-search-button" type="submit" value="search"/>
+</div>
+</form>
+</div>
+<div class="cl"> </div>
+</div>
+<script type="text/javascript">
+        window.count_entry_id = '636650';
+        window.count_chan = 'place';
+        window.count_stmp = "1428115071";
+    </script>
+<div class="pg-place" id="container">
+<div class="container-cnt">
+<div class="" id="content" itemscope="" itemtype="http://schema.org/LocalBusiness">
+<div class="place-post">
+<div class="place-post-title">
+<h1 class="h1-seo-replace" id="main-content-title" itemprop="name">Hash House A Go Go</h1>
+<div class="post-actions">
+<div class="action action-share">
+<a class="share-toggle" href="#"><i class="icon-share"></i></a>
+<div class="share-options">
+<a class="js-share-google" href="https://plus.google.com/share?url={url}" target="_blank"><i class="icon-gplus"></i></a>
+<a class="addthis_button_facebook" href="http://www.addthis.com/bookmark.php" title="Facebook"><i class="icon-facebook"></i></a>
+<a class="addthis_button_twitter" href="http://www.addthis.com/bookmark.php" title="Tweet"><i class="icon-twitter"></i></a>
+</div>
+</div>
+</div>
+</div>
+<span class="date"><a href="/c/las-vegas-nv/american-restaurants">American</a> | <a href="/c/las-vegas-nv/westside-restaurants">Westside</a></span>
+<div class="place-editorial-review" itemprop="review" itemscope="" itemtype="http://schema.org/Review">
+<div class="review-left">
+<div class="stats-holder" itemprop="aggregateRating" itemscope="" itemtype="http://schema.org/AggregateRating">
+<span class="rated">
+<i class="icon-logo-mini"></i>
+<span>Rated</span>
+</span>
+<div class="text-stats">
+<span class="i-box"><span class="i-text">Food</span><span class="i-number i-number-red" itemprop="ratingValue">24</span></span>
+<span class="i-box"><span class="i-text">Decor</span><span class="i-number" itemprop="ratingValue">21</span></span>
+<span class="i-box"><span class="i-text">Service</span><span class="i-number" itemprop="ratingValue">23</span></span>
+<span class="i-box"><span class="i-text">Cost</span><span class="i-number">$25</span></span>
+<div class="cl"> </div>
+</div>
+<span class="little-text">
+<span class="left">Ratings are out of 30. Key to ratings</span>
+<a class="question" href="#">Question</a>
+<span class="cl"> </span>
+</span>
+<div class="js-tool-tip">
+<span class="z-logo"></span>
+<h5>Zagat ratings</h5>
+<p class="border">
+                                         Zagat calculates ratings on a 30-point scale based on periodic consumer surveys
+                                    </p>
+<ul>
+<li class="number">26 - <span itemprop="bestRating">30</span></li>
+<li>Extraordinary to Perfection</li>
+<li class="number">21 - 25</li>
+<li>Very Good to Excellent</li>
+<li class="number">16 - 20</li>
+<li>Good to Very Good</li>
+<li class="number">11 - 15</li>
+<li>Fair to Good</li>
+<li class="number"><span itemprop="worstRating">0</span> - 10</li>
+<li>Poor to Fair</li>
+</ul>
+<ul class="cost-rating">
+<li class="number">I</li>
+<li>Inexpensive</li>
+<li class="number">M</li>
+<li>Moderate</li>
+<li class="number">E</li>
+<li>Expensive</li>
+<li class="number">VE</li>
+<li>Very Expensive</li>
+</ul>
+<p><i>Numerical cost estimates are for the price of dinner with one drink and tip.</i></p>
+</div>
+</div>
+<div class="place-review-body">
+<h3>Our Summary Review </h3>
+<p itemprop="reviewBody">
+                                    "Come hungry" because the "creative" yet "comforting" Traditional American fare comes in "gargantuan" portions ("one platter could feed a small army") at these Sin City chain links; casual surroundings and "courteous" service delight too, so you definitely "get your money's worth" – just "go with an extra stomach."
+                                </p>
+<p class="review-modal-link">Zagat reviews are compiled from individual user reviews. <a class="js-review-modal" data-ga="true" data-gaaction="Clicked to Add a Review" data-gacategory="Place Page" data-galabel="Hash House A Go Go | Las Vegas" href="https://survey.zagat.com/reviewmodal.aspx?parentID=636650&amp;verticalID=1&amp;PartnerID=1&amp;UTM_Medium=zagat_modal&amp;UTM_Campaign=place_page&amp;UTM_Source=ZM10001" target="_blank">Write a review</a></p>
+</div>
+</div>
+<div class="place-resume">
+<p itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+<strong itemprop="streetAddress">6800 W Sahara Ave</strong> | <a class="js-scroll-to-map" data-ga="true" data-gaaction="Place Detail Page" data-gacategory="Map Scroll Link" data-galabel="Hash House A Go Go | Las Vegas">Map</a><br>
+<span itemprop="addressLocality">Las Vegas</span>, 
+                                <span itemprop="addressRegion">Nevada</span>
+<span itemprop="postalCode">89146</span><br>
+                                702-804-4646<br>
+<a class="website" data-ga="true" data-gaaction="Hash House A Go Go | Las Vegas" data-gacategory="Rest Website Link" data-galabel="Hash House A Go Go | Las Vegas" href="http://www.hashhouseagogo.com/vegas" target="_blank">www.hashhouseagogo.com/vegas</a>
+</br></br></br></p>
+<div class="hours-wrap">
+<p data-place-name="Hash House A Go Go" id="hours-p"><strong>Today&amp;apos;s hours:</strong><br><a href="#">7:30am - 2:30pm, 5:00pm - 10:00pm</a></br></p>
+<div class="js-tool-tip-2">
+<table class="hours-open">
+<tr>
+<td>Monday</td>
+<td>7:30am - 2:30pm, 5:00pm - 9:00pm </td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>7:30am - 2:30pm, 5:00pm - 9:00pm </td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>7:30am - 2:30pm, 5:00pm - 9:00pm </td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>7:30am - 2:30pm, 5:00pm - 9:00pm </td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>7:30am - 2:30pm, 5:00pm - 10:00pm </td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td><strong>7:30am - 2:30pm, 5:00pm - 10:00pm </strong></td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>7:30am - 2:30pm, 5:00pm - 9:00pm </td>
+</tr>
+</table>
+</div>
+</div>
+<a class="btn btn-block" data-ga="true" data-gaaction="Viewed Menu" data-gacategory="Place Page" data-gacustommetric="6" data-galabel="Hash House A Go Go" href="/r/hash-house-a-go-go-las-vegas/menu">VIEW MENU</a>
+<a class="btn right" data-ga="true" data-gaaction="Hash House A Go Go | Las Vegas" data-gacategory="Add to Calendar" href="http://www.google.com/calendar/event?action=TEMPLATE&amp;trp=false&amp;location=6800+W+Sahara+Ave%2C+Las+Vegas%2C+NV+89146%2C+United+States&amp;text=Hash+House+A+Go+Go&amp;details=For+details%2C+visit+http%3A%2F%2Fwww.zagat.com%2Fr%2Fhash-house-a-go-go-las-vegas&amp;dates=20150404T020000Z%2F20150404T030000Z" target="_blank"><i class="icon-calendar"></i> ADD</a>
+<a addthis:title="Hash House A Go Go on Zagat.com" class="addthis_button_email btn" href="http://www.addthis.com/bookmark.php" target="_blank" title="Email"><i class="icon-envelope"></i> EMAIL</a>
+</div>
+</div>
+</div>
+<div class="place-wp">
+<div class="items-slider desktop js-desktop">
+<ul class="slides">
+<li>
+<div class="image image-small">
+<div class="image-box">
+<a class="place-slideshow" data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/4aef80b455d331b6d99e3c46322f70db.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b">
+<img alt="" height="145" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/4aef80b455d331b6d99e3c46322f70db.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="196"/>
+</a>
+</div>
+<div class="image-box">
+<a class="place-slideshow" data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/d2c839cd1783c4020139e3e4b2ebbc45.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b">
+<img alt="" height="145" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/d2c839cd1783c4020139e3e4b2ebbc45.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="196"/>
+</a>
+</div>
+<div class="image-box">
+<a class="place-slideshow" data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/c8977ad26934ee515fc95f9168c1502c.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b">
+<img alt="" height="145" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/c8977ad26934ee515fc95f9168c1502c.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="196"/>
+</a>
+</div>
+<div class="image-box">
+<a class="place-slideshow" data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/a16b66412ae3c4a3192e9d2e66a26ae0.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b">
+<img alt="" height="145" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/a16b66412ae3c4a3192e9d2e66a26ae0.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="196"/>
+</a>
+</div>
+<div class="image-box">
+<a class="place-slideshow" data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/a16b66412ae3c4a3192e9d2e66a26ae0.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b">
+<img alt="" height="145" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/a16b66412ae3c4a3192e9d2e66a26ae0.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="196"/>
+</a>
+</div>
+<div class="cl"> </div>
+</div>
+<div class="points-wp">
+                                     
+                                </div>
+<div class="fullscreen-holder">
+<div class="image-place">
+                                         
+                                    </div>
+<a class="close" href="#">x</a>
+</div>
+</li>
+</ul>
+</div>
+<div class="items-slider responsive js-responsive">
+<ul class="slides">
+<li>
+<div class="image image-small">
+<div class="image-box">
+<a data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/4aef80b455d331b6d99e3c46322f70db.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b"><img alt="" height="212" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/4aef80b455d331b6d99e3c46322f70db.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="288"/></a>
+<span class="strike"> </span>
+</div>
+<li>
+<div class="image image-small">
+<div class="image-box">
+<a data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/d2c839cd1783c4020139e3e4b2ebbc45.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b"><img alt="" height="212" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/d2c839cd1783c4020139e3e4b2ebbc45.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="288"/></a>
+<span class="strike"> </span>
+</div>
+<li>
+<div class="image image-small">
+<div class="image-box">
+<a data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/c8977ad26934ee515fc95f9168c1502c.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b"><img alt="" height="212" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/c8977ad26934ee515fc95f9168c1502c.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="288"/></a>
+<span class="strike"> </span>
+</div>
+<li>
+<div class="image image-small">
+<div class="image-box">
+<a data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/a16b66412ae3c4a3192e9d2e66a26ae0.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b"><img alt="" height="212" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/a16b66412ae3c4a3192e9d2e66a26ae0.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="288"/></a>
+<span class="strike"> </span>
+</div>
+<li>
+<div class="image image-small">
+<div class="image-box">
+<a data-ga="true" data-gaaction="Viewed Photo" data-gacategory="Place Page" data-gacustommetric="7" data-galabel="Hash House A Go Go" href="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/a16b66412ae3c4a3192e9d2e66a26ae0.jpg&amp;max_height=400&amp;max_width=586&amp;key=abbc09b7c840c10937a4db331422c98b"><img alt="" height="212" src="/proxy/v1.4?m=image&amp;a=resize&amp;url=http%3A//storage.googleapis.com/zgt-photos/0x80c8c0dec2df850f_0x103f564456d6a84b/a16b66412ae3c4a3192e9d2e66a26ae0.jpg&amp;width=288&amp;height=212&amp;key=abbc09b7c840c10937a4db331422c98b" width="288"/></a>
+<span class="strike"> </span>
+</div>
+<div class="cl"> </div>
+</div>
+<div class="points-wp">
+                                     
+                                </div>
+<div class="fullscreen-holder">
+<div class="image-place">
+                                         
+                                    </div>
+<a class="close" href="#">x</a>
+</div>
+</li>
+</div></li></div></li></div></li></div></li></ul>
+</div>
+</div>
+<div class="place-reservations">
+<div class="map js-place-map" data-place-name="Hash House A Go Go | Las Vegas">
+<div id="map-canvas" style="width:100%; height: 100%;"></div>
+<div id="save-widget">
+<p class="place-title"><strong>Hash House A Go Go</strong></p>
+<p class="place-address">
+                                6800 W Sahara Ave<br>
+                                Las Vegas, Nevada 89146<br>
+                                702-804-4646
+                            </br></br></p>
+<div class="place-navigate">
+<a class="place-navigate-link" href="http://maps.google.com/maps?daddr=Hash%20House%20A%20Go%20Go%206800%20W%20Sahara%20Ave%20Las%20Vegas%2C%20Nevada%2089146" target="_blank">
+<div class="icon place-navigate-icon"></div>
+<div class="place-navigate-text">Directions</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="place-module">
+<div class="place-module-head">
+<h3 class="place-module-title">MORE ABOUT Hash House A Go Go</h3>
+</div>
+<script>var kftForGtm = [];</script>
+<div class="place-module-body">
+<div class="place-links">
+<div class="place-links-list">
+<div class="place-links-type">
+<h4>Feature</h4>
+<ul>
+<li>
+<a data-ga="true" data-gaaction="Clicked KFT Link" data-gacategory="Place Page" data-gacustommetric="9" data-galabel="Outdoor Seating" href="/search/place#kft=433&amp;vertical=322">Outdoor Seating</a>
+<script>kftForGtm.push("Outdoor Seating");</script>
+</li>
+<li>
+<a data-ga="true" data-gaaction="Clicked KFT Link" data-gacategory="Place Page" data-gacustommetric="9" data-galabel="Parking Available" href="/search/place#kft=463&amp;vertical=322">Parking Available</a>
+<script>kftForGtm.push("Parking Available");</script>
+</li>
+</ul>
+</div>
+<div class="place-links-type">
+<h4>Food and Drink</h4>
+<ul>
+<li>
+<a data-ga="true" data-gaaction="Clicked KFT Link" data-gacategory="Place Page" data-gacustommetric="9" data-galabel="Breakfast Served" href="/search/place#kft=458&amp;vertical=322">Breakfast Served</a>
+<script>kftForGtm.push("Breakfast Served");</script>
+</li>
+<li>
+<a data-ga="true" data-gaaction="Clicked KFT Link" data-gacategory="Place Page" data-gacustommetric="9" data-galabel="Brunch Served" href="/search/place#kft=459&amp;vertical=322">Brunch Served</a>
+<script>kftForGtm.push("Brunch Served");</script>
+</li>
+<li>
+<a data-ga="true" data-gaaction="Clicked KFT Link" data-gacategory="Place Page" data-gacustommetric="9" data-galabel="Lunch Served" href="/search/place#kft=460&amp;vertical=322">Lunch Served</a>
+<script>kftForGtm.push("Lunch Served");</script>
+</li>
+<li>
+<a data-ga="true" data-gaaction="Clicked KFT Link" data-gacategory="Place Page" data-gacustommetric="9" data-galabel="Dinner Served" href="/search/place#kft=461&amp;vertical=322">Dinner Served</a>
+<script>kftForGtm.push("Dinner Served");</script>
+</li>
+<li>
+<a data-ga="true" data-gaaction="Clicked KFT Link" data-gacategory="Place Page" data-gacustommetric="9" data-galabel="Full Bar" href="/search/place#kft=477&amp;vertical=322">Full Bar</a>
+<script>kftForGtm.push("Full Bar");</script>
+</li>
+<li>
+<a data-ga="true" data-gaaction="Clicked KFT Link" data-gacategory="Place Page" data-gacustommetric="9" data-galabel="Takeout Available" href="/search/place#kft=486&amp;vertical=322">Takeout Available</a>
+<script>kftForGtm.push("Takeout Available");</script>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="place-module">
+<div class="place-module-head">
+<h3 class="place-module-title">You Might Also Like</h3>
+</div>
+<div class="OUTBRAIN" data-ob-template="zagat" data-src="http://www.zagat.com/r/hash-house-a-go-go-las-vegas" data-widget-id="AR_4"></div>
+<script async="async" src="//widgets.outbrain.com/outbrain.js" type="text/javascript"></script>
+</div>
+</div>
+<div id="sidebar">
+<div class="ad-box" id="div-gpt-ad-665430869832007653-1">
+<script type="text/javascript">
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-665430869832007653-1'); });
+    </script>
+</div>
+<script>var appearsInListsForGTM = [];</script>
+<script>var appearsInBuzzForGTM = [];</script>
+<div class="widget widget-g-plus">
+<div class="g-plus-container">
+<div class="g-page" data-href="https://plus.google.com/109120141323580761150" data-layout="landscape" data-width="300"></div>
+</div>
+</div>
+<div class="ad-box" id="div-gpt-ad-665430869832007653-2">
+<script type="text/javascript">
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-665430869832007653-2'); });
+    </script>
+</div>
+</div>
+<div class="cl"> </div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div class="shell">
+<div class="footer-container">
+<div class="col col-1">
+<h4><span class="line"> </span>Information</h4>
+<ul>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="About Us" href="/about-us">About Us</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Company News" href="http://zagat.blogspot.com/" target="_blank">Company News</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Business Owners" href="/business-owners">Business Owners</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="30 Under 30" href="/30under30">30 Under 30</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Sales &amp; Advertising" href="/sales-advertising">Sales &amp; Advertising</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Privacy &amp; Terms" href="/privacy-policy">Privacy &amp; Terms</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Help" href="http://www.google.com/support/zagat/" target="_blank">Help</a></li>
+</ul>
+</div>
+<div class="col col-2">
+<h4><span class="line"> </span>Our Locations</h4>
+<ul class="two-col">
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Atlanta" href="/set-city/atlanta">Atlanta</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Austin" href="/set-city/austin">Austin</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Boston" href="/set-city/boston">Boston</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Chicago" href="/set-city/chicago">Chicago</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Dallas" href="/set-city/dallas">Dallas</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Denver" href="/set-city/denver">Denver</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Houston" href="/set-city/houston">Houston</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="London" href="/set-city/london">London</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Los Angeles" href="/set-city/los-angeles">Los Angeles</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Miami" href="/set-city/miami">Miami</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="National" href="/set-city/national">National</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="New York City" href="/set-city/new-york-city">New York City</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Philadelphia" href="/set-city/philadelphia">Philadelphia</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="San Diego" href="/set-city/san-diego">San Diego</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="San Francisco" href="/set-city/san-francisco">San Francisco</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Seattle" href="/set-city/seattle">Seattle</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Toronto" href="/set-city/toronto">Toronto</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Washington, DC" href="/set-city/washington-dc">Washington, DC</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="All Locations" href="/locations">All Locations</a></li>
+</ul>
+<div class="cl"> </div>
+</div>
+<div class="col col-3">
+<h4><span class="line"> </span> Join Our Newsletter</h4>
+<div class="join-form">
+<form action="/newsletters/user_check" class="js-main-join-form" method="get">
+<input class="field" name="email" title="Your Email" type="text" value="Your Email"/>
+<input class="submit-btn" type="submit" value="Submit"/>
+<input name="city" type="hidden" value="Las Vegas"/>
+<div class="cl"> </div>
+</form>
+</div>
+<h4>And Follow Us on</h4>
+<div class="social">
+<a class="g-icon" href="https://plus.google.com/+ZAGAT" rel="publisher" target="_blank" title="Google +">Google +</a>
+<a class="f-icon" href="http://www.facebook.com/Zagat" target="_blank" title="Facebook">Facebook</a>
+<a class="t-icon" href="http://twitter.com/zagat" target="_blank" title="Twitter">Twitter</a>
+<a class="tb-icon" href="http://zagat.tumblr.com" target="_blank" title="Tumblr">Tumblr</a>
+<a class="yt-icon" href="http://www.youtube.com/zagat" target="_blank" title="Youtube">YouTube</a>
+<a class="p-icon" href="http://picasaweb.google.com/114029921178892306350" target="_blank" title="Picasa">Picasa</a>
+<div class="cl"> </div>
+</div>
+</div>
+<div class="col">
+<h4><span class="line"> </span>Get the zagat app</h4>
+<p>Download now for free!</p>
+<div class="stores">
+<a class="apple js-app-apple" href="https://itunes.apple.com/us/app/zagat/id669821485?mt=8" target="_blank">App Store</a>
+<a class="google js-app-google" href="https://play.google.com/store/apps/details?id=com.google.zagat" target="_blank">Google Play</a>
+</div>
+</div>
+<div class="cl"> </div>
+<p class="copy">© 2015 Zagat. All rights reserved.</p>
+<p class="seo-nav">
+<a href="/c/new-york-city-ny/all-restaurants">All Restaurants</a>
+<span class="divider">|</span>
+<a href="/cn/new-york-city/all-nightlife">All Nightlife</a>
+</p>
+</div>
+</div>
+<div class="footer mobile">
+<div class="shell">
+<div class="col col-1">
+<h4 id="js-information"><span class="line"> </span>Information</h4>
+<ul id="js-information-content">
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="About Us" href="/about-us">About Us</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Company News" href="http://zagat.blogspot.com/" target="_blank">Company News</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Business Owners" href="/business-owners">Business Owners</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="30 Under 30" href="/30under30">30 Under 30</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Sales &amp; Advertising" href="/sales-advertising">Sales &amp; Advertising</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Privacy &amp; Terms" href="/privacy-policy">Privacy &amp; Terms</a></li>
+<li><a data-ga="true" data-gaaction="Information" data-gacategory="Footer" data-galabel="Help" href="http://www.google.com/support/zagat/" target="_blank">Help</a></li>
+</ul>
+</div>
+</div>
+<div class="shell">
+<div class="col col-2">
+<h4 id="js-locations"><span class="line"> </span>Our Locations</h4>
+<ul class="two-col" id="js-locations-content">
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Atlanta" href="/set-city/atlanta">Atlanta</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Austin" href="/set-city/austin">Austin</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Boston" href="/set-city/boston">Boston</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Chicago" href="/set-city/chicago">Chicago</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Dallas" href="/set-city/dallas">Dallas</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Denver" href="/set-city/denver">Denver</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Houston" href="/set-city/houston">Houston</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="London" href="/set-city/london">London</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Los Angeles" href="/set-city/los-angeles">Los Angeles</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Miami" href="/set-city/miami">Miami</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="National" href="/set-city/national">National</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="New York City" href="/set-city/new-york-city">New York City</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Philadelphia" href="/set-city/philadelphia">Philadelphia</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="San Diego" href="/set-city/san-diego">San Diego</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="San Francisco" href="/set-city/san-francisco">San Francisco</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Seattle" href="/set-city/seattle">Seattle</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Toronto" href="/set-city/toronto">Toronto</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="Washington, DC" href="/set-city/washington-dc">Washington, DC</a></li>
+<li><a data-ga="true" data-gaaction="Our Locations" data-gacategory="Footer" data-galabel="All Locations" href="/locations">All Locations</a></li>
+</ul>
+<div class="cl"> </div>
+</div>
+</div>
+<div class="shell">
+<div class="col col-3">
+<h4 id="js-newsletter"><span class="line"> </span> Join Our Newsletter</h4>
+<div id="js-newsletter-content">
+<div class="join-form">
+<form action="/newsletters/user_check" id="js-main-join-mobile" method="get">
+<input class="field" name="email" title="Your Email" type="text" value="Your Email"/>
+<input class="submit-btn" type="submit" value="Submit"/>
+<input name="city" type="hidden" value="Las Vegas"/>
+<div class="cl"> </div>
+</form>
+</div>
+<h4>And Follow Us on</h4>
+<div class="social">
+<a class="g-icon" href="https://plus.google.com/+ZAGAT" target="_blank" title="Google +">Google +</a>
+<a class="f-icon" href="http://www.facebook.com/Zagat" target="_blank" title="Facebook">Facebook</a>
+<a class="t-icon" href="http://twitter.com/zagat" target="_blank" title="Twitter">Twitter</a>
+<a class="tb-icon" href="http://zagat.tumblr.com" target="_blank" title="Tumblr">Tumblr</a>
+<a class="yt-icon" href="http://www.youtube.com/zagat" target="_blank" title="Youtube">YouTube</a>
+<a class="p-icon" href="http://picasaweb.google.com/114029921178892306350" target="_blank" title="Picasa">Picasa</a>
+<div class="cl"> </div>
+</div>
+</div>
+</div>
+</div>
+<div class="shell">
+<div class="col">
+<h4 id="js-app"><span class="line"> </span>Get the zagat app</h4>
+<div id="js-app-content">
+<p>Download now for free!</p>
+<div class="stores">
+<a class="apple js-app-apple" href="https://itunes.apple.com/us/app/zagat/id669821485?mt=8" target="_blank">App Store</a>
+<a class="google js-app-google" href="https://play.google.com/store/apps/details?id=com.google.zagat" target="_blank">Google Play</a>
+</div>
+</div>
+</div>
+</div>
+<div class="cl"> </div>
+<p class="copy">© 2015 Zagat. All rights reserved.</p>
+</div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js" type="text/javascript"></script>
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;signed_in=true&amp;key=AIzaSyBPpRRNvITzZMAoopulNskZAyTkKLKB2EU" type="text/javascript"></script>
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=zagatbuzz&amp;async=1" type="text/javascript"></script>
+<script src="/assets/js/plugins.js?rel=1062" type="text/javascript"></script>
+<script src="/assets/js/zagat.js?rel=1062" type="text/javascript"></script>
+<script async="true" defer="true" src="//survey.g.doubleclick.net/async_survey?site=y6muzyp23ains" type="text/javascript"></script>
+<script type="text/javascript">
+        (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = 'https://apis.google.com/js/plusone.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+<script type="text/javascript">
+        zga.setCustomVar('Current City Choice', "New York City", 'session')
+    </script>
+<script type="text/javascript">
+        var map;
+        var saveWidget;
+
+        function initializePlaceMap() {
+
+            var myOptions = {
+                zoom: 17,
+                center: {lat: 36.1446571, lng: -115.2399750}
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'), myOptions);
+
+            var saveWidgetOptions = {
+                place: {
+                    query: "Hash House A Go Go 6800 W Sahara Ave, Las Vegas, Nevada 89146",
+                    location: {lat: 36.1446571, lng: -115.2399750}
+                },
+                attribution: {
+                    source: 'Zagat',
+                    webUrl: "http://www.zagat.com/r/hash-house-a-go-go-las-vegas"
+                }
+            };
+
+            new google.maps.Marker({
+                map: map,
+                position: saveWidgetOptions.place.location
+            });
+
+            var widgetDiv = document.getElementById('save-widget');
+            map.controls[google.maps.ControlPosition.TOP_LEFT].push(widgetDiv);
+
+            // Append a Save Control to the existing save-widget div.
+            saveWidget = new google.maps.SaveWidget(widgetDiv, saveWidgetOptions);
+
+            // Show the save widget container once the map tiles have loaded
+            google.maps.event.addListener(map, 'tilesloaded', function()
+            {
+                widgetDiv.style.display = 'block';
+            });
+        }
+
+        google.maps.event.addDomListener(window, 'load', initializePlaceMap);
+
+    </script>
+<script type="text/javascript">
+        zga.setCustomVar('Page Type', 'Place Detail Page', 'page');
+        zga.setCustomVar('Place Name', "Hash House A Go Go | Las Vegas", 'page');
+        zga.setCustomVar('Food Score', "24", 'page');
+        zga.setCustomVar('Decor Score', "21", 'page');
+        zga.setCustomVar('Service Score', "23", 'page');
+        zga.setCustomVar('Appeal Score', "-", 'page');
+        zga.setCustomVar('Atmosphere Score', "-", 'page');
+        zga.setCustomVar('Quality Score', "-", 'page');
+        zga.setCustomVar('Facilities Score', "-", 'page');
+        zga.setCustomVar('Primary Score', "24", 'page');
+        zga.setCustomVar('Cost', 25, 'page');
+        zga.setCustomVar('Place Location', "Las Vegas", 'page');
+        zga.setCustomVar('contentType', 'Place', 'page');
+        zga.setCustomVar('placeKfts', kftForGtm, 'page');
+        zga.setCustomVar('appearsInLists', appearsInListsForGTM, 'page');
+        zga.setCustomVar('appearsInBuzz', appearsInBuzzForGTM, 'page');
+        zga.setCustomVar('placeNeighborhood', "Westside", 'page');
+        zga.setCustomVar('placeType', "American", 'page');
+    </script>
+<script type="text/javascript">
+        (function() {
+            var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+            po.src = '//apis.google.com/js/platform.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+</body>
+</html>
