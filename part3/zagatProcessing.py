@@ -1,6 +1,7 @@
 import csv
 import os
 import argparse
+from tokenizer import tokenizer
 
 
 
@@ -19,11 +20,15 @@ if __name__ == '__main__':
     cityDict = dict()
     stateDict = dict()
     for row in inputcsv:
-        [sentiment,city,state] = row
-        sentiment = float(sentiment)
-        if state not in states:
-            continue
+        if args.output == 'Yelp':
+            [sentiment,city,state] = row
+            if state not in states:
+                continue
+        elif args.output == 'Zagat':
+            [sentiment,state,city] = row
+        city = ' '.join(tokenizer(city))
         city = city+':'+state
+        sentiment = float(sentiment)
         if city in cityDict:
             crrnt = cityDict[city]
             cityDict[city] = [crrnt[0]+sentiment,crrnt[1]+1]

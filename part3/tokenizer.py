@@ -11,6 +11,7 @@ punc_table = {ord(c): None for c in punc}
 stemmer = PorterStemmer()
 responses_per_batch = 5000
 punc_regex = re.compile('[%s]' % re.escape(string.punctuation))
+directions = {'north':'n','east':'e','south':'s','west':'w'}
 def tokenizer(text):
 	word_tup_arr = {}
 	word_arr = []
@@ -41,6 +42,8 @@ def tokenizer(text):
 		# [] Remove short/long words
 		if len(word) < 3 or len(word) > 20:
 			continue
+                if word in directions:
+                        word = directions[word]
                 word_arr.append(word)
 
 	return word_arr
