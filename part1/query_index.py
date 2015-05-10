@@ -194,6 +194,8 @@ def q3(query_str):
 					temp_index_array = [x-i for x in index_array]
 					intersection = list(set(review_indices_map[review_line]).intersection(temp_index_array))
 					review_indices_map[review_line] = intersection
+
+	print review_indices_map
 					
 	# loop through one last time
 	for i in range(0, len(full_results)):
@@ -205,7 +207,7 @@ def q3(query_str):
 				b_id = review[0]
 				b_date = review[3]	
 				b_score = review[4]
-				temp_review_index = (x+i for x in review_indices_map[review_line])
+				temp_review_index = (x+i for x in review_indices_map[b_line])
 				intersection = list(set(temp_review_index).intersection(b_indices))
 				if len(intersection):
 					updated_review = (b_id, b_line, intersection, b_date, score)
@@ -293,7 +295,7 @@ def determineQType(query_str):
 
 def getScore(tf, df, date):
 	year_posted = int(date.split("-",1)[0])
-	score = (1+log(tf))*log(float(N)/df) + (float(year_posted-timestart)/(timenow-timestart))
+	score = (1+log(tf))*log(float(N)/df) + (float(year_posted-timestart)/(timenow-timestart))*5
 	return score
 
 def rankOutput(output_reviews):
