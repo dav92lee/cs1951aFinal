@@ -69,6 +69,7 @@ def mapwords():
 	for review in f_in:
 		review_obj = json.loads(review)
 		text = review_obj["text"]
+		date = review_obj["date"].encode('utf-8')
 		review_id = line_num
 		line_num += 1
 		business_id = review_obj["business_id"].encode('utf-8')
@@ -78,7 +79,7 @@ def mapwords():
 		
 		for word in word_tup_arr:
 			index_arr = word_tup_arr[word]
-			cur_review = (business_id, review_id, index_arr)
+			cur_review = (business_id, review_id, index_arr, date)
 			if word not in map_out_dict:
 				map_out_dict[word] = []
 			map_out_dict[word].append(cur_review)
