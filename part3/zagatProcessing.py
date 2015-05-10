@@ -19,6 +19,8 @@ if __name__ == '__main__':
     statecsv = csv.writer(stateOutput)
     cityDict = dict()
     stateDict = dict()
+    cityMeanDict = dict()
+    stateMeanDict = dict()
     for row in inputcsv:
         if args.output == 'Yelp':
             [sentiment,city,state] = row
@@ -41,7 +43,47 @@ if __name__ == '__main__':
             stateDict[state] = [sentiment,1.0]
     for k in cityDict:
         v = cityDict[k]
-        citycsv.writerow([v[0]/v[1],k])
+        mean = v[0]/v[1]
+        # citycsv.writerow([mean,k])
+        cityMeanDict[k] = mean
     for k in stateDict:
         v = stateDict[k]
-        statecsv.writerow([v[0]/v[1],k])
+        mean = v[0]/v[1]
+        # statecsv.writerow([mean,k])
+        stateMeanDict[k] = mean
+
+
+
+    #go back to top for variance
+    csvInput.seek(0)
+    for row in inputcsv:
+        [sentiment,city,state] = row
+        sentiment = float(sentiment)
+        if state not in states:
+            continue
+        city = city+':'+state
+        if city in cityDict:
+            crrnt = cityDict[city]
+            sentiment_diff = ((sentiment - float(cityMeanDict[city])))**2
+            cityDict[city] = [crrnt[0]+sentiment_diff,crrnt[1]+1]
+        else:
+            sentiment_diff = ((sentiment - float(cityMeanDict[city])))**2
+            cityDict[city] = [sentiment_diff,1]
+        if state in stateDict:
+            crrnt = stateDict[state]
+            sentiment_diff = ((sentiment - float(stateMeanDict[state])))**2
+            stateDict[state] = [crrnt[0]+sentiment_diff,crrnt[1]+1.0]
+        else:
+            sentiment_diff = ((sentiment - float(stateMeanDict[state])))**2
+            stateDict[state] = [sentiment_diff,1.0]
+    for k in cityDict:
+        v = cityDict[k]
+        mean = cityMeanDict[k]
+        var = v[0]/v[1]
+        citycsv.writerow([mean,var,k])
+    for k in stateDict:
+        v = stateDict[k]
+        mean = stateMeanDict[k]
+        var = v[0]/v[1]
+        statecsv.writerow([mean,var,k])
+
