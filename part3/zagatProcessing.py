@@ -2,7 +2,10 @@ import csv
 import os
 import argparse
 
+
+
 if __name__ == '__main__':
+    states = ["AL", "AK", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "HI", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "ME", "MD", "MA", "MI", "MN", "MS", "MO", "MT", "NE", "NV", "NH", "NJ", "NM", "NY", "NC", "ND", "OH", "OK", "OR", "PA", "RI", "SC", "SD", "TN", "TX", "UT", "VT", "VA", "WA", "WV", "WI", "WY"]
     parser = argparse.ArgumentParser()
     parser.add_argument('-input',help='Path to csv')
     parser.add_argument('-output',help='Output file suffix')
@@ -16,8 +19,10 @@ if __name__ == '__main__':
     cityDict = dict()
     stateDict = dict()
     for row in inputcsv:
-        [sentiment,state,city] = row
+        [sentiment,city,state] = row
         sentiment = float(sentiment)
+        if state not in states:
+            continue
         city = city+':'+state
         if city in cityDict:
             crrnt = cityDict[city]
