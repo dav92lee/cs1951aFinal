@@ -2,6 +2,7 @@ import csv
 import os
 import argparse
 from tokenizer import tokenizer
+from math import pow
 
 
 
@@ -56,25 +57,31 @@ if __name__ == '__main__':
 
     #go back to top for variance
     csvInput.seek(0)
+    cityDict.clear()
+    stateDict.clear()
     for row in inputcsv:
         [sentiment,city,state] = row
+        if args.output == 'Yelp':
+            [sentiment,city,state] = row
+            if state not in states:
+                continue
+        elif args.output == 'Zagat':
+            [sentiment,state,city] = row
         sentiment = float(sentiment)
-        if state not in states:
-            continue
+        city = ' '.join(tokenizer(city))
         city = city+':'+state
+        sentiment_diff = pow(((sentiment - float(cityMeanDict[city]))),2)
         if city in cityDict:
             crrnt = cityDict[city]
-            sentiment_diff = ((sentiment - float(cityMeanDict[city])))**2
             cityDict[city] = [crrnt[0]+sentiment_diff,crrnt[1]+1]
         else:
-            sentiment_diff = ((sentiment - float(cityMeanDict[city])))**2
             cityDict[city] = [sentiment_diff,1]
         if state in stateDict:
             crrnt = stateDict[state]
-            sentiment_diff = ((sentiment - float(stateMeanDict[state])))**2
+            sentiment_diff = pow(((sentiment - float(stateMeanDict[state]))),2)
             stateDict[state] = [crrnt[0]+sentiment_diff,crrnt[1]+1.0]
         else:
-            sentiment_diff = ((sentiment - float(stateMeanDict[state])))**2
+            sentiment_diff = pow(((sentiment - float(stateMeanDict[state]))),2)
             stateDict[state] = [sentiment_diff,1.0]
     for k in cityDict:
         v = cityDict[k]

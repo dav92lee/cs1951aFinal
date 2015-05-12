@@ -1,0 +1,81 @@
+<html>
+  <body>
+    <h1><u>Part 2</u></h1>
+    <h2>Problem</h2>
+    <p>
+      For any Yelp review other users can give that review votes in any
+      of three categories: "funny", "useful" and "cool"
+      We wanted to determine whether there was a correlation between the
+      sentiment of a review and the votes that review received from other
+      users.
+    </p>
+    <h2>Hypothesis</h2>
+    <p>
+      We predict that an increase in sentiment will result in a reduced number
+      of funny votes, an increase in sentiment will result in a reduced number
+      of useful votes and a decrease in sentiment will result in a increased
+      number of cool votes.
+    </p>
+    <h2>Methodology</h2>
+    <h3>Data Extraction</h3>
+    <p>
+      We began our analysis by first extracting the relevant data from the Yelp
+      academic dataset. We used a python script (part2.py) which iterated
+      through the json objects in the provided dataset file
+      (yelp_academic_dataset_review.json), extracting the text, date,
+      "funny" votes, "useful" votes, and "cool" votes. In order to account
+      for reviews that had been posted for longer being more likely to receive
+      more votes in general, we attempted to normalize the vote counts by
+      multiplying each vote count by 2016-year/2016-2004, where year is the
+      year the review was published, 2016 is an end year which allows for
+      reviews posted in 2015 and 2004 is Yelp's founding date. We saved
+      the sentiment of the review (discussed below), the raw vote counts
+      for each category, and the normalized vote counts for each category
+      in a csv file named "out.csv".
+    </p>
+    <h3>Sentiment</h3>
+    <p>
+      Sentiment analysis involved two separate steps: tokenization and analysis.
+    </p>
+    <h4>Tokenization</h4>
+    <p>
+      Tokenization was done via a python function tokenizer (in tokenizer.py).
+      All words had newline characters replaced with spaces and all punctutation
+      removed completely. Any words designated as "stop words" by the python
+      library nltk were removed completely from the given text and the stem
+      of the remaining words was extracted via the porter stemmer algorithm
+      (implemented in the accompanying python file). If there were any letters
+      that were repeated 3 times or more in a row, then those letters were
+      reduced to a single letter. If a word was less than 3 characters or greater
+      than 20 characters after the resulting processing, then that word was
+      ignored.
+    </p>
+    <h4>Analysis</h4>
+    <p>
+      The sentiment of a given text was determined by summing th sentiment score
+      of all words in the tokenized text and was then normalized to a score
+      between -1 (most negative) and 1 (most positive). The sentiment score
+      of any individual word was determined by using the Technical University
+      of Denmark's AFINN-111 score file (which had it's keys tokenized using
+      the previously described algorithm).
+    </p>
+    <h3>Regression</h3>
+    <p>
+      After accumulating the data, we iterated through each vote count and
+      attempted a linear regression (via sci-kit learn's
+      linear_model.linear_regression function, which does regression
+      via Ordinary Least Squares) on each. The resulting line and data were
+      printed to a graph using matplotlib. Various other regression techniques
+      were attempted (discussed below)
+    </p>
+    <h2>Results</h2>
+    After initial attempts at linear regression it was determined that for
+    each vote count, sentiment pair there was a mass of points that
+    surrounded the origin, making attempts at regression nie impossible.
+    This is because any attempt at fitting a line/curve to the full dataset
+    would naturally be pulled down so far toward the origin that the regression
+    would not trully fit the curves present in the data. Thus it was determined
+    that there was no correlation between sentiment and vote counts for the Yelp
+    dataset.
+  </body>
+</html>

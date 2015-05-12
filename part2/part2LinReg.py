@@ -1,4 +1,4 @@
-from scipy.optimize import curve_fit
+from sklearn import linear_model
 import numpy as np
 import csv
 import matplotlib.pyplot as plt
@@ -25,21 +25,17 @@ if __name__ == '__main__':
         for row in reader:
             reviews.append(Review(row))
     print('Extracting X and Y')
-    numReviews = len(reviews)
-    tenth = numReviews/1000
-    dataShell=list()
-    for i in xrange(0,numReviews,tenth):
-        dataShell.append(max(reviews[i:i+tenth],key=lambda a: a.funny))
+    
+    funnyX=map(lambda a: [a.sentiment],reviews)
+    funnyY=map(lambda a: a.cool,reviews)
 
-    funnyX=map(lambda a: a.sentiment,dataShell)
-    funnyY=map(lambda a: a.funny,dataShell)
+    reg=linear_model.LinearRegression()
 
-    print('Fitting Curve')
-    opt,var = curve_fit(curve,np.array(funnyX),np.array(funnyY))
-
+    reg.fit(funnyX,funnyY)
+    
     print('Making Graph')
-    plt.scatter(funnyX,funnyY,color='blue')
-    plt.plot(funnyX,map(lambda a: curve(a,opt[0],opt[1],opt[2]),funnyX), color='black')
+    plt.scatter(map(lambda a: a[0],funnyX),funnyY,color='black')
+    plt.plot(funnyX,reg.predict(funnyX),color='blue',linewidth=3)
 
     plt.xlim((-1,1))
     
